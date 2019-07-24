@@ -24,7 +24,7 @@ Quoting from the [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3) [
 > The [`light-level`](https://drafts.csswg.org/mediaqueries-5/#light-level) media feature
 > is used to detect if the user has requested the system to minimize the amount of animation or motion it uses.
 
-:roller_coaster: **`lightLevel()`** is part of :crystal_ball: [**Magica11y**](https://magica11y.github.io),
+:candle: **`lightLevel()`** is part of :crystal_ball: [**Magica11y**](https://magica11y.github.io),
 which provides a suite of functions to detect “user-preference” and “environment” media features.
 
 [Magica11y](https://magica11y.github.io) functions are awesome because…
