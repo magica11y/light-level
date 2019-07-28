@@ -1,6 +1,6 @@
 `lightLevel()`
 ==============
-> Detects the ambient light-level of the user’s device using the 'light-level' CSS3 level 5 media query.
+> Detects the ambient light-level of the user’s device using the `light-level` CSS3 level 5 media query.
 
 [![Travis](https://img.shields.io/travis/com/magica11y/light-level.svg?style=for-the-badge)](https://travis-ci.com/magica11y/light-level)
 [![npm](https://img.shields.io/npm/v/@magica11y/light-level.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/light-level)
@@ -37,7 +37,9 @@ which provides a suite of functions to detect “user-preference” and “envir
 In addition to `lightLevel()`, [Magica11y](https://magica11y.github.io) also provides…
 
   * :tv: [`environmentBlending()`](https://github.com/magica11y/environment-blending)
-  * :last_quarter_moon: [`invertedColors()`](https://github.com/magica11y/inverted-colors)
+  * :new_moon: [`invertedColors()`](https://github.com/magica11y/inverted-colors)
+  * :art: [`forcedColors()`](https://github.com/magica11y/forced-colors)
+  * :last_quarter_moon: [`prefersColorScheme()`](https://github.com/magica11y/prefers-color-scheme)
   * :high_brightness: [`prefersContrast()`](https://github.com/magica11y/prefers-contrast)
   * :roller_coaster: [`prefersReducedMotion()`](https://github.com/magica11y/prefers-reduced-motion)
   * :gem: [`prefersReducedTransparency()`](https://github.com/magica11y/prefers-reduced-transparency)
@@ -85,7 +87,7 @@ const disableAnimations = (currentLightLevel === lightLevel.availableLightLevels
 import lightLevel, { availableLightLevels } from 'magica11y/lightLevel';
 
 const currentLightLevel = lightLevel();
-const enableDarkMode = currentLightLevel === availableLightLevels.DIM;
+const enableDarkMode = (currentLightLevel === availableLightLevels.DIM);
 ```
 
 The `availableLightLevels` object contains all the possible values supported by the `'light-level'` media query…
