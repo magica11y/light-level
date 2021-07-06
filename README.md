@@ -3,15 +3,15 @@
 > Detects the ambient light-level of the user’s device using the `light-level` CSS3 level 5 media query.
 
 [![Travis](https://img.shields.io/travis/com/magica11y/light-level.svg?style=for-the-badge)](https://travis-ci.com/magica11y/light-level)
-[![npm](https://img.shields.io/npm/v/@magica11y/light-level.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/light-level)
+[![NPM](https://img.shields.io/npm/v/@magica11y/light-level.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/light-level)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/light-level.svg?style=for-the-badge "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/light-level)
 [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/light-level.svg?style=for-the-badge "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/light-level)
-[![Coveralls](https://img.shields.io/coveralls/magica11y/light-level.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/r/magica11y/light-level)
-[![David](https://img.shields.io/david/magica11y/light-level.svg?style=for-the-badge "Dependencies")](https://david-dm.org/magica11y/light-level)
-[![David](https://img.shields.io/david/dev/magica11y/light-level.svg?style=for-the-badge "Dev Dependencies")](https://david-dm.org/magica11y/light-level?type=dev)
-[![node](https://img.shields.io/node/v/@magica11y/light-level.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/light-level)
+[![Coveralls](https://img.shields.io/coveralls/github/magica11y/light-level.svg?style=for-the-badge "Test coverage status")](https://coveralls.io/github/magica11y/light-level)
+[![David DM](https://img.shields.io/david/magica11y/light-level.svg?style=for-the-badge "Dependencies")](https://david-dm.org/magica11y/light-level)
+[![David DM](https://img.shields.io/david/dev/magica11y/light-level.svg?style=for-the-badge "Dev Dependencies")](https://david-dm.org/magica11y/light-level?type=dev)
+[![NodeJS](https://img.shields.io/node/v/@magica11y/light-level.svg?style=for-the-badge "Node engine")](https://www.npmjs.com/package/@magica11y/light-level)
 [![License](https://img.shields.io/github/license/magica11y/light-level.svg?style=for-the-badge "MIT license")](LICENSE.md)
-![Greenkeeper](https://badges.greenkeeper.io/magica11y/light-level.svg?style=flat-square "Greenkeeper")
+[![Snyk](https://img.shields.io/snyk/vulnerabilities/github/magica11y/light-level?style=for-the-badge "Snyk vulnerabilities status")](https://snyk.io/test/github/magica11y/light-level?targetFile=package.json)
 
 [![Magica11y cover](https://cdn.jsdelivr.net/gh/magica11y/cauldron@1.0.7/assets/Magica11y-cover.jpg "Magica11y cover")](https://magica11y.github.io)
 
@@ -84,7 +84,7 @@ const disableAnimations = (currentLightLevel === lightLevel.availableLightLevels
 … or as an ES module…
 
 ```js
-import lightLevel, { availableLightLevels } from 'magica11y/lightLevel';
+import lightLevel, { availableLightLevels } from '@magica11y/lightLevel';
 
 const currentLightLevel = lightLevel();
 const enableDarkMode = (currentLightLevel === availableLightLevels.DIM);
@@ -131,6 +131,6 @@ type (i.e. `LightLevel`). So using the `?` prefix to indicate nullable types is 
 
 See [LICENSE.md](LICENSE.md) for more details.
 
-Handcrafted with :heart: by [Rishabh Rao](https://github.com/rishabhsrao).
+Handcrafted with :heart: by [Rishabh](https://rishabh.ink).
 
-[![Twitter](https://img.shields.io/twitter/follow/rishabhsrao.svg?style=social)](https://twitter.com/rishabhsrao)
+[![Twitter](https://img.shields.io/twitter/follow/rishabh_ink.svg?style=social)](https://twitter.com/rishabh_ink)
