@@ -10,7 +10,7 @@ Please use the other Magica11y functions, :last_quarter_moon: [`prefersColorSche
 ==============
 > Detects the ambient light-level of the user’s device using the `light-level` CSS3 level 5 media query.
 
-[![Travis](https://img.shields.io/travis/com/magica11y/light-level.svg?style=for-the-badge)](https://travis-ci.com/magica11y/light-level)
+[![Travis](https://img.shields.io/travis/com/magica11y/light-level.svg?style=for-the-badge)](https://app.travis-ci.com/github/magica11y/light-level)
 [![NPM](https://img.shields.io/npm/v/@magica11y/light-level.svg?style=for-the-badge "NPM")](https://www.npmjs.com/package/@magica11y/light-level)
 [![Bundlephobia](https://img.shields.io/bundlephobia/min/@magica11y/light-level.svg?style=for-the-badge "Bundle size (minified)")](https://bundlephobia.com/result?p=@magica11y/light-level)
 [![Bundlephobia](https://img.shields.io/bundlephobia/minzip/@magica11y/light-level.svg?style=for-the-badge "Bundle size (minified+gzipped)")](https://bundlephobia.com/result?p=@magica11y/light-level)
